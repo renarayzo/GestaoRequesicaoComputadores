@@ -1,0 +1,64 @@
+#ifndef CONSTANTES_H_INCLUDED
+#define CONSTANTES_H_INCLUDED
+
+//Constantes Gerais
+#define ZERO 0
+
+//Constantes Estrutura - portateisParaRequesicao
+#define MAX_NUM_IDENTIFICACAO_PORTATIL 20
+#define MAX_NUM_DESIGNACAO_PORTATIL 20
+#define MIN_RAM_PORTATIL 2
+#define MAX_RAM_PORTATIL 1000
+#define MAX_ESTADO_REQUESICAO 20
+#define MAX_LOCALIZACAO_PORTATIL 20
+#define MIN_VALOR_PORTATIL 250
+#define MAX_VALOR_PORTATIL 5000
+#define MAX_REGISTOS_PORTATEIS 30
+
+#define MIN_PROCESSADOR_PORTATIL 1
+#define MAX_PROCESSADOR_PORTATIL 3
+#define MIN_ESCOLHA_ESTADO 1
+#define MAX_ESCOLHA_ESTADO 2
+#define MIN_ESCOLHA_LOCALIZACAO 1
+#define MAX_ESCOLHA_LOCALIZACAO 4
+
+//Constantes Estrutura - requesicoesPortateis
+#define MAX_CODIGO_REQUESICAO 10
+#define MAX_NOME_UTENTE 80
+#define MAX_TIPO_UTENTE 20
+#define MIN_PRAZO_REQUESICAO 7
+#define MAX_PRAZO_REQUESICAO 30
+#define MAX_MULTA_PAGAR 1000
+
+#define MIN_ESCOLHA_TIPO_UTENTE 1
+#define MAX_ESCOLHA_TIPO_UTENTE 3
+
+//Constantes Estrutura - estruturaData
+#define MAX_DIA_DATA 31
+#define MAX_DIA_FEVEREIRO 28
+#define MAX_DIA_BISEXTO_FEVEREIRO 29
+#define MIN_MES_DATA 1
+#define MAX_MES_DATA 12
+#define MIN_ANO_DATA 2000
+#define MAX_ANO_DATA 2023
+
+//Constantes Estrutura - avariasPortateis
+#define MIN_CODIGO_AVARIA 1
+#define MAX_TIPO_AVARIA 20
+#define MIN_ESCOLHA_TIPO_AVARIA 1
+#define MAX_ESCOLHA_TIPO_AVARIA 2
+#define MIN_DURACAO_AVARIA 1
+#define MAX_DURACAO_AVARIA 31
+
+//Constantes Funcao Menus
+#define MAX_OPCAO 4
+#define MAX_OPCAO_SUBPORTATEIS 4
+#define MAX_OPCAO_SUBREQUESICOES 6
+#define MAX_OPCAO_SUBAVARIAS 4
+#define MAX_OPCAO_ESTATISTICAS 4
+
+//Constantes Funções Auxiliares
+#define MAX_STRING 50
+
+
+#endif // CONSTANTES_H_INCLUDED

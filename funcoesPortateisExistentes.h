@@ -1,0 +1,15 @@
+#ifndef FUNCOESPORTATEISEXISTENTES_H_INCLUDED
+#define FUNCOESPORTATEISEXISTENTES_H_INCLUDED
+
+#include "constantes.h"
+#include "funcoesLeitura.h"
+#include "estruturas.h"
+
+void registarInformacaoPortateis(portateisParaRequesicao portateisInfo[MAX_REGISTOS_PORTATEIS], int *quantidadePortateisDisponiveis, int *quantidadePortateisExistentesParaRequesicao);
+void listarInformacaoPortateis(int quantidadePortateisExistentesParaRequesicao, portateisParaRequesicao portateisInfo[MAX_REGISTOS_PORTATEIS], int quantidadeTotalRequisicoes, requesicaoPortateis *requesicaoInfosPortateis, int quantidadeTotalAvarias, avariasPortateis *avariasInfosPortateis);
+void alteralLocalizacaoUmPortatil(int quantidadePortateisExistentesParaRequesicao, portateisParaRequesicao portateisInfo[MAX_REGISTOS_PORTATEIS]);
+void gravaFicheiroBinarioPortateis(portateisParaRequesicao portateisInfos[MAX_REGISTOS_PORTATEIS], int quantidadePortateisExistentesParaRequesicao, int quantidadePortateisDisponiveis);
+void leFicheiroBinarioPortateis(portateisParaRequesicao portateisInfos[MAX_REGISTOS_PORTATEIS], int *quantidadePortateisExistentesParaRequesicao, int *quantidadePortateisDisponiveis);
+int procurarPortatilExistente(int quantidadePortateisExistentesParaRequesicao, char numIdentificacaoPortatil[MAX_NUM_IDENTIFICACAO_PORTATIL], portateisParaRequesicao portateisInfos[MAX_REGISTOS_PORTATEIS]);
+
+#endif // FUNCOESPORTATEISEXISTENTES_H_INCLUDED

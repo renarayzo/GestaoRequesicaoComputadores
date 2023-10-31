@@ -1,0 +1,134 @@
+# depslib dependency file v1.0
+1673461574 source:d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"constantes.h"
+	"funcoesMenus.c"
+	"funcoesPortateisExistentes.c"
+	"funcoesRequesicoesPortateis.c"
+	"funcoesAvariasReparacoes.c"
+	"funcoesEstatisticas.c"
+	"funcoesLeitura.c"
+
+1673452408 d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\constantes.h
+
+1673290042 d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\funcoesmenus.h
+	"constantes.h"
+	"funcoesLeitura.h"
+
+1672419622 d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\funcoesleitura.h
+	"constantes.h"
+
+1673461574 d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\funcoesportateisexistentes.h
+	"constantes.h"
+	"funcoesLeitura.h"
+	"estruturas.h"
+
+1673450122 d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\funcoesrequesicoesportateis.h
+	"constantes.h"
+	"funcoesLeitura.h"
+	"estruturas.h"
+
+1673457266 d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\funcoesavariasreparacoes.h
+	"constantes.h"
+	"funcoesLeitura.h"
+	"estruturas.h"
+
+1673452408 d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\funcoesmenus.c
+	"funcoesMenus.h"
+
+1673462882 d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\funcoesportateisexistentes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcoesPortateisExistentes.h"
+	"funcoesRequesicoesPortateis.h"
+	"funcoesAvariasReparacoes.h"
+
+1673466969 d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\funcoesrequesicoesportateis.c
+	"funcoesRequesicoesPortateis.h"
+
+1673464415 d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\funcoesavariasreparacoes.c
+	"funcoesAvariasReparacoes.h"
+
+1672686104 d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\funcoesleitura.c
+	"funcoesLeitura.h"
+
+1673265623 d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\funcoesvariosficheiros.h
+	"funcoesPortateisExistentes.h"
+	"funcoesRequesicoesPortateis.h"
+	"funcoesAvariasReparacoes.h"
+
+1673452510 d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\estruturas.h
+
+1673399482 d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\funcoesestatisticas.c
+	"funcoesEstatisticas.h"
+
+1673305022 d:\estg\p1 pl\projetoprogramacao\projetoprogamacaofatimarenato\funcoesestatisticas.h
+
+1673461574 source:d:\estg\p1 pl\projetoprogramacao\projetofinalprogramacao1\projetoprogamacaofatimarenato\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"constantes.h"
+	"funcoesMenus.c"
+	"funcoesPortateisExistentes.c"
+	"funcoesRequesicoesPortateis.c"
+	"funcoesAvariasReparacoes.c"
+	"funcoesEstatisticas.c"
+	"funcoesLeitura.c"
+
+1673452408 d:\estg\p1 pl\projetoprogramacao\projetofinalprogramacao1\projetoprogamacaofatimarenato\constantes.h
+
+1673452408 d:\estg\p1 pl\projetoprogramacao\projetofinalprogramacao1\projetoprogamacaofatimarenato\funcoesmenus.c
+	"funcoesMenus.h"
+
+1673290042 d:\estg\p1 pl\projetoprogramacao\projetofinalprogramacao1\projetoprogamacaofatimarenato\funcoesmenus.h
+	"constantes.h"
+	"funcoesLeitura.h"
+
+1672419622 d:\estg\p1 pl\projetoprogramacao\projetofinalprogramacao1\projetoprogamacaofatimarenato\funcoesleitura.h
+	"constantes.h"
+
+1673462882 d:\estg\p1 pl\projetoprogramacao\projetofinalprogramacao1\projetoprogamacaofatimarenato\funcoesportateisexistentes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcoesPortateisExistentes.h"
+	"funcoesRequesicoesPortateis.h"
+	"funcoesAvariasReparacoes.h"
+
+1673461574 d:\estg\p1 pl\projetoprogramacao\projetofinalprogramacao1\projetoprogamacaofatimarenato\funcoesportateisexistentes.h
+	"constantes.h"
+	"funcoesLeitura.h"
+	"estruturas.h"
+
+1673452510 d:\estg\p1 pl\projetoprogramacao\projetofinalprogramacao1\projetoprogamacaofatimarenato\estruturas.h
+
+1673450122 d:\estg\p1 pl\projetoprogramacao\projetofinalprogramacao1\projetoprogamacaofatimarenato\funcoesrequesicoesportateis.h
+	"constantes.h"
+	"funcoesLeitura.h"
+	"estruturas.h"
+
+1673457266 d:\estg\p1 pl\projetoprogramacao\projetofinalprogramacao1\projetoprogamacaofatimarenato\funcoesavariasreparacoes.h
+	"constantes.h"
+	"funcoesLeitura.h"
+	"estruturas.h"
+
+1673467495 d:\estg\p1 pl\projetoprogramacao\projetofinalprogramacao1\projetoprogamacaofatimarenato\funcoesrequesicoesportateis.c
+	"funcoesRequesicoesPortateis.h"
+
+1673464415 d:\estg\p1 pl\projetoprogramacao\projetofinalprogramacao1\projetoprogamacaofatimarenato\funcoesavariasreparacoes.c
+	"funcoesAvariasReparacoes.h"
+
+1673399482 d:\estg\p1 pl\projetoprogramacao\projetofinalprogramacao1\projetoprogamacaofatimarenato\funcoesestatisticas.c
+	"funcoesEstatisticas.h"
+
+1673305022 d:\estg\p1 pl\projetoprogramacao\projetofinalprogramacao1\projetoprogamacaofatimarenato\funcoesestatisticas.h
+
+1672686104 d:\estg\p1 pl\projetoprogramacao\projetofinalprogramacao1\projetoprogamacaofatimarenato\funcoesleitura.c
+	"funcoesLeitura.h"
+

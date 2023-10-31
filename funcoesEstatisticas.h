@@ -1,0 +1,9 @@
+#ifndef FUNCOESESTATISTICAS_H_INCLUDED
+#define FUNCOESESTATISTICAS_H_INCLUDED
+
+void percentagensCadaTipoProcessador(int quantidadeTotalPortateis, portateisParaRequesicao portateisInfo[MAX_REGISTOS_PORTATEIS]);
+float mediaMultasPagas(int quantidadeTotalRequesicoes, int quantidadeRequesicoesAtivas, requesicaoPortateis *requesicaoInfosPortateis);
+void tiposUtentesMenorQuantRequesicoes(int quantidadeTotalRequesicoes, requesicaoPortateis *requesicaoInfosPortateis);
+void devolucoesMaisRecentes(int quantidadeTotalRequesicoes, requesicaoPortateis *requesicaoInfosPortateis);
+
+#endif // FUNCOESESTATISTICAS_H_INCLUDED

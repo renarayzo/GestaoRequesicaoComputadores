@@ -1,0 +1,19 @@
+#ifndef FUNCOESREQUESICOESPORTATEIS_H_INCLUDED
+#define FUNCOESREQUESICOESPORTATEIS_H_INCLUDED
+
+#include "constantes.h"
+#include "funcoesLeitura.h"
+#include "estruturas.h"
+
+requesicaoPortateis *registarInformacaoRequesicoes(int *quantidadeTotalRequisicoes, int *quantidadeRequesicoesAtivas, requesicaoPortateis *requesicaoInfosPortateis, int quantidadePortateisExistentes, int *quantidadePortateisDisponiveis, portateisParaRequesicao portateisInfos[MAX_REGISTOS_PORTATEIS]);
+void listarRequesicoesPortateis(int quantidadeTotalRequesicoes, requesicaoPortateis *requesicaoInfosPortateis);
+void listarUmaRequesicao(int quantidadeTotalRequesicoes, requesicaoPortateis *requesicaoInfosPortateis, portateisParaRequesicao portateisInfos[MAX_REGISTOS_PORTATEIS]);
+void concluirRequesicao(int quantidadeTotalRequisicoes, int *quantidadeRequesicoesAtivas, requesicaoPortateis *requesicaoInfosPortateis, int quantidadePortateisExistentes, int *quantidadePortateisDisponiveis, portateisParaRequesicao portateisInfos[MAX_REGISTOS_PORTATEIS]);
+void renovarRequesicao(int quantidadeTotalRequisicoes, requesicaoPortateis *requesicoesInfosPortateis);
+void gravaFicheiroBinarioRequesicoes(int quantidadeTotalRequesicoes, int quantidadeRequesicoesAtivas, requesicaoPortateis *requesicaoInfosPortateis);
+requesicaoPortateis *leFicheiroBinarioRequesicoes(int *quantidadeTotalRequesicoes, int *quantidadeRequesicoesAtivas, requesicaoPortateis *requesicaoInfosPortateis);
+int converteDataDias(estruturaData data);
+int procurarRequesicaoExistente(int quantidadeTotalRequisicoes, char codigoRequesicaoPretendido[MAX_CODIGO_REQUESICAO], requesicaoPortateis *requesicaoInfosPortateis);
+int quantidadeRequesicoesPorNumIdentificacaoPortatil(int quantidadeTotalRequisicoes, char numIdentificacaoPretendido[MAX_CODIGO_REQUESICAO], requesicaoPortateis *requesicaoInfosPortateis);
+
+#endif // FUNCOESREQUESICOESPORTATEIS_H_INCLUDED
